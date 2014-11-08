@@ -1221,6 +1221,15 @@ var/list/ghostteleportlocs = list()
 	name = "\improper Prison Wing"
 	icon_state = "sec_prison"
 
+/area/security/prisonlockers
+	name = "\improper Prison Locker Room"
+	icon_state = "sec_prison"
+
+/area/security/prisonexecution
+	name = "\improper Execution Room"
+	icon_state = "brig"
+
+
 /area/security/warden
 	name = "\improper Warden"
 	icon_state = "Warden"
@@ -1336,6 +1345,14 @@ var/list/ghostteleportlocs = list()
 
 /area/hydroponics
 	name = "Hydroponics"
+	icon_state = "hydro"
+
+/area/hydroponics/garden
+	name = "Garden"
+	icon_state = "hydro"
+
+/area/hydroponics/gardenb
+	name = "Garden Backroom"
 	icon_state = "hydro"
 
 //Toxins
